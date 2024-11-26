@@ -1,0 +1,62 @@
+﻿@model urgent_IT_project1.Models.Course
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_Layout - Admin.cshtml";
+
+}
+
+<h1>Edit</h1>
+
+<h4>Course</h4>
+<hr />
+<div class="row">
+    <div class="col-12 col-lg-4"></div>
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="CImage" class="control-label"></label>
+                <input asp-for="CImage" class="form-control" />
+                <span asp-validation-for="CImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CName" class="control-label"></label>
+                <input asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDuration" class="control-label"></label>
+                <input asp-for="CDuration" class="form-control" />
+                <span asp-validation-for="CDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDescrip1" class="control-label"></label>
+                <input asp-for="CDescrip1" class="form-control" />
+                <span asp-validation-for="CDescrip1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDescrip2" class="control-label"></label>
+                <input asp-for="CDescrip2" class="form-control" />
+                <span asp-validation-for="CDescrip2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CPrice" class="control-label"></label>
+                <input asp-for="CPrice" class="form-control" />
+                <span asp-validation-for="CPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

@@ -1,0 +1,65 @@
+﻿@model urgent_IT_project1.Models.CourseViewModel
+
+@{
+    ViewData["Title"] = "Dashboard";
+    Layout = "~/Views/Shared/_Layout - Admin.cshtml";
+}
+
+
+
+<h1>Create</h1>
+
+<h4>Course</h4>
+<hr />
+<div class="row">
+    <div class="col-12 col-lg-4"></div>
+    <div class="col-md-4">
+        <p style="color:red;">@TempData["Size_Error"]</p>
+        <p style="color:red;">@TempData["Ext_Error"]</p>
+
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Photo" class="control-label"></label>
+                <input asp-for="Photo" class="form-control" />
+                <span asp-validation-for="Photo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CName" class="control-label"></label>
+                <input asp-for="CName" class="form-control" />
+                <span asp-validation-for="CName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDuration" class="control-label"></label>
+                <input asp-for="CDuration" class="form-control" />
+                <span asp-validation-for="CDuration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDescrip1" class="control-label"></label>
+                <input asp-for="CDescrip1" class="form-control" />
+                <span asp-validation-for="CDescrip1" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CDescrip2" class="control-label"></label>
+                <input asp-for="CDescrip2" class="form-control" />
+                <span asp-validation-for="CDescrip2" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CPrice" class="control-label"></label>
+                <input asp-for="CPrice" class="form-control" />
+                <span asp-validation-for="CPrice" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

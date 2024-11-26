@@ -1,0 +1,70 @@
+﻿@model IEnumerable<urgent_IT_project1.Models.Course>
+
+<style>
+    .setimg {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/index/bgimg.png');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .list-unstyled {
+        list-style-type: disc; /* Show bullets */
+        padding-left: 1.5rem; /* Adjust inde=01ntation */
+    }
+</style>
+
+
+
+<div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+    <div class="carousel-inner" style="position:sticky;">
+        <div class="carousel-item active">
+            <img src="~/services/our slider.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+        </div>
+    </div>
+</div>
+<div class="setimg">
+    <header class=" container-fluid hero">
+        <h1>
+            Our Placement Oriented Courses
+        </h1>
+        <p>After successful complition of courses we will provide you chance to work on live projects under professional guidance.</p>
+    </header>
+
+    <div class="container">
+        <div class="row pt-5 d-flex justify-content-between">
+            @foreach (var item in Model)
+            {
+                <div class="col-md-4 col-lg-4 mb-4 d-flex align-items-stretch">
+                    <div class="card text-center w-100">
+                        <img src="@Url.Content("~/images/" + item.CImage)" class="card-img-top" alt="Course Image">
+
+                        <div class="card-body d-flex flex-column">
+                            <h3 class="Course name">@Html.DisplayFor(modelItem => item.CName)</h3>
+                            <p class="Course Duration">
+                                @Html.DisplayFor(modelItem => item.CDuration)
+                            </p>
+                            <ul class="list-unstyled flex-grow-1">
+                                <li class="Course descrip1">
+                                    @Html.DisplayFor(modelItem => item.CDescrip1)
+                                </li>
+                                <li class="Course descript2">
+                                    @Html.DisplayFor(modelItem => item.CDescrip2)
+                                </li>
+                            </ul>
+                            <div class="text-center text-danger mt-auto">
+                                ₹
+                                @Html.DisplayFor(modelItem => item.CPrice)
+                                <h3 class="Course price"></h3>
+                            </div>
+                        </div>
+                        <div class="bg-dark"><a href="#"><h2>Enroll Now</h2></a></div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+
+</div>
+

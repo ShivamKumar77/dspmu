@@ -1,0 +1,104 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    *@
+@{
+}
+<style>
+    .card {
+        border: none; /* Remove default border */
+    }
+
+    .btn-custom-register {
+        background-color: #007bff; /* Custom blue color */
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem; /* Custom padding */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+    }
+
+    .btn-custom-login {
+        background-color: #6c757d; /* Custom gray color */
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem; /* Custom padding */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Box shadow for button */
+    }
+
+        .btn-custom-register:hover,
+        .btn-custom-login:hover {
+            opacity: 0.9;
+        }
+
+    .shadow-lg {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2) !important; /* Custom box shadow for card */
+    }
+
+    .list-group-item {
+        border: none; /* Remove borders between list items */
+    }
+
+    
+
+    .setimg {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/index/bgimg.png');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    .contenttt {
+        background-color: rgba(0, 0, 1, 0.6); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+</style>
+
+
+
+
+<div class="setimg">
+    <div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+        <div class="carousel-inner" style="position:sticky;">
+            <div class="carousel-item active">
+                <img src="~/services/our slider.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+            </div>
+        </div>
+    </div>
+    <header class=" container-fluid hero">
+        <h1>Our Internship Program</h1>
+        <p>Easy for your Career</p>
+    </header>
+
+    <div class="contenttt my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg p-4 mb-5 bg-white rounded">
+                    <h2 class="text-center mb-4">Internship Program Guidelines</h2>
+                    <p class="lead">
+                        Welcome to our internship program! We are excited to have you on board. Please take a moment to review the guidelines below to ensure a smooth and productive experience:
+                    </p>
+                    <ul class="list-group list-group-flush mb-4">
+                        <li class="list-group-item"><strong>Eligibility:</strong> The program is open to students currently enrolled in a university or college.</li>
+                        <li class="list-group-item"><strong>Duration:</strong> The internship will last for a minimum of 3 months.</li>
+                        <li class="list-group-item"><strong>Work Hours:</strong> Interns are expected to work 20 hours per week.</li>
+                        <li class="list-group-item"><strong>Responsibilities:</strong> Interns will assist with various projects and tasks related to their field of study.</li>
+                        <li class="list-group-item"><strong>Supervision:</strong> Each intern will be assigned a mentor who will provide guidance and feedback.</li>
+                        <li class="list-group-item"><strong>Evaluation:</strong> Performance will be evaluated at the end of the internship.</li>
+                        <li class="list-group-item"><strong>Confidentiality:</strong> Interns are required to maintain confidentiality regarding company information.</li>
+                    </ul>
+                    <p>
+                        For more details, please refer to the complete program handbook available after registration.
+                    </p>
+                    <div class="d-flex justify-content-center">
+                        <a href="/register" class="btn btn-custom-register me-2">Register</a>
+                        <a href="/login" class="btn btn-custom-login">Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

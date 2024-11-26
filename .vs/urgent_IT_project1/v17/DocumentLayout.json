@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\views\\home\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\views\\home\\placement_cources.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\views\\home\\placement_cources.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|c:\\users\\shiva\\onedrive\\desktop\\urgent_it_project1\\urgent_it_project1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{0BFE93B1-819E-45C6-975A-0C190413DAE6}|urgent_IT_project1\\urgent_IT_project1.csproj|solutionrelative:urgent_it_project1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\About.cshtml",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Views\\Home\\About.cshtml",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\About.cshtml",
+              "RelativeToolTip": "urgent_IT_project1\\Views\\Home\\About.cshtml",
+              "ViewState": "AgIAAFgBAAAAAAAAAAAAAGkBAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T13:40:01.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "urgent_IT_project1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADkAAAAAAAAAAAD4v0UAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-25T13:12:03.258Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Program.cs",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Program.cs",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Program.cs",
+              "RelativeToolTip": "urgent_IT_project1\\Program.cs",
+              "ViewState": "AgIAABIAAACA/////38ZwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:56:15.681Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Controllers\\CoursesController.cs",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Controllers\\CoursesController.cs",
+              "RelativeToolTip": "urgent_IT_project1\\Controllers\\CoursesController.cs",
+              "ViewState": "AgIAAAsAAAACzczMzIwzwBMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T12:54:31.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "placement_cources.cshtml",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\placement_cources.cshtml",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Views\\Home\\placement_cources.cshtml",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Home\\placement_cources.cshtml",
+              "RelativeToolTip": "urgent_IT_project1\\Views\\Home\\placement_cources.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T10:16:34.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "urgent_IT_project1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\shiva\\OneDrive\\Desktop\\urgent_IT_project1\\urgent_IT_project1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "urgent_IT_project1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-04T05:26:32.759Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

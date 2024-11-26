@@ -1,0 +1,160 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/slider/slider4.png');
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .contenttt {
+        background-color: rgba(0, 0, 1, 0.6); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+
+    .card {
+        background-color: rgba(252, 250, 250, 0.8); /* Slightly transparent white */
+    }
+
+    /* three cart */
+        .service-item {
+            text-align: center;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #f8f9fa;
+            height: 100%;
+            animation: moveUpDown 3s ease-in-out infinite;
+        }
+        
+        
+        .service-item:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            background-color: #fa8072;
+        }
+
+        .service-icon {
+            font-size: 50px;
+            color: #dc143c;
+            margin-bottom: 15px;
+        }
+
+        .service-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .service-description {
+            font-size: 16px;
+            color: #6c757d;
+        }
+
+        /* Animation for continuous movement */
+        @@keyframes moveUpDown {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    
+</style>
+
+
+<div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+    <div class="carousel-inner" style="position:sticky;">
+        <div class="carousel-item active">
+            <img src="~/index/intern.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+        </div>
+    </div>
+</div>
+<header class=" container-fluid hero mt-2">
+    <h1>Best Responsive Website Designing Company In DSPMU Ranchi </h1>
+</header>
+
+
+<div class="background-image contenttt pt-0">
+    <div class="container ">
+        <div class="card shadow-lg">
+            <div class="card-body text-black">
+                <p class="card-text">
+                    Web development is the work involved in developing a website for the Internet (World Wide Web) or an intranet (a private network). Web development can range from developing a simple single static page of plain text to complex web-based internet applications (web apps), electronic businesses, and social network services.
+                </p>
+                <p class="card-text">
+                    A more comprehensive list of tasks to which Web development commonly refers, may include web engineering, web design, web content development, client-side/server-side scripting, web server and network security configuration, and e-commerce development. Among web professionals, "web development" usually refers to the main non-design aspects of building websites: writing markup and coding.
+                </p>
+                <p class="card-text">
+                    Web development may use content management systems (CMS) to make content changes easier and available with basic technical skills.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container contenttt pt-4 pb-3">
+    <div class="row">
+        <div class="col-12 col-lg-5 col-md-4">
+            <img class="img-fluid" src="~/web imgs/web_mainten.jpg" />
+        </div>
+        <div class="col-12 col-lg-7 col-md-8">
+            <h2>Website Maintenance In Responsive Design</h2>
+            <p>
+                Leverage our powerful software maintenance and support services around the globe, as we are able to deliver our solutions everywhere. We provide dedicated software maintenance and support services that let you concentrate on your core business functions. With our agile and seamless software maintenance and support services,
+                your business will have what it needs to reach its full potential.
+            </p>
+            <p>Our experts provide you with effective long-term continual maintenance and real-time support services for all your software requirements.</p>
+
+        </div>
+    </div>
+</div>
+
+<div class="container contenttt pt-3 text-center">
+    <h2>Why Choose Us For Responsive Website Maintenance Services</h2>
+</div>
+
+<div class="container contenttt text-black my-5">
+    <div class="row g-4">
+        <!-- Responsive Website With Performance Improvement -->
+        <div class="col-md-4 d-flex">
+            <div class="service-item shadow-sm flex-fill">
+                <i class="bi bi-speedometer2 service-icon"></i>
+                <h3 class="service-title">Responsive Website With Performance Improvement</h3>
+                <p class="service-description">
+                    Web performance optimization (WPO), or website optimization, is the field of knowledge about increasing web performance.
+                </p>
+            </div>
+        </div>
+        <!-- Improves User Experience -->
+        <div class="col-md-4 d-flex">
+            <div class="service-item shadow-sm flex-fill">
+                <i class="bi bi-people service-icon"></i>
+                <h3 class="service-title">Improves User Experience</h3>
+                <p class="service-description">
+                    We improve user experience, reducing friction between your website and your target audience.
+                </p>
+            </div>
+        </div>
+        <!-- Bug Fixing In Responsive Design -->
+        <div class="col-md-4 d-flex">
+            <div class="service-item shadow-sm flex-fill">
+                <i class="bi bi-bug service-icon"></i>
+                <h3 class="service-title">Bug Fixing In Responsive Design</h3>
+                <p class="service-description">
+                    We have done a lot of work in the field of bug fixing in the software development process.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>

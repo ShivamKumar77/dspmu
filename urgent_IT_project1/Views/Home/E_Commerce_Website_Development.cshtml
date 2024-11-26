@@ -1,0 +1,352 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<!-- Custom CSS -->
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/slider/slider4.png');
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .contenttt {
+        background-color: rgba(0, 0, 1, 0.6); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+    .contact-section {
+        background-color: #f8f9fa;
+        padding: 40px 0;
+        text-align: center;
+    }
+
+        .contact-section h2 {
+            margin-bottom: 20px;
+            color: #000000;
+        }
+
+        .contact-section p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+    .contact-details {
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+        .contact-details a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+            .contact-details a:hover {
+                text-decoration: underline;
+            }
+    .service-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 10px;
+        transition: background-color 0.3s ease;
+        border-bottom: 1px solid #dee2e6;
+    }
+
+        .service-item:hover {
+            background-color: #fa8072;
+        }
+
+    .service-icon {
+        font-size: 36px; /* Adjusted icon size */
+        color: #dc143c;
+        background-color: #e9ecef;
+        border-radius: 50%;
+        width: 50px; /* Adjusted width */
+        height: 50px; /* Adjusted height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px;
+    }
+
+    .service-text {
+        font-size: 12px; /* Reduced text size */
+        line-height: 1.4;
+    }
+
+    .equal-height {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .equal-height .col {
+            display: flex;
+            flex-direction: column;
+        }
+
+    .col-md-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+        .col-md-6 .service-item {
+            flex: 1;
+        }
+
+    .service-item:last-child {
+        margin-bottom: 0; /* Remove margin for the last item */
+    }
+
+    .content-container {
+        padding: 20px;
+        background-color: #f8f9fa;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+        .content-container:hover {
+            background-color: #e9ecef;
+            transform: scale(1.02);
+        }
+
+    .content-heading {
+        color: #000000;
+        font-weight: bold;
+        margin-bottom: 15px;
+    }
+
+    .content-paragraph {
+        font-size: 16px;
+        line-height: 1.6;
+        color: #333;
+    }
+
+    .highlight {
+        color: #dc143c;
+        font-weight: bold;
+    }
+
+    .service-card {
+        padding: 20px;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        text-align: center;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        margin-bottom: 20px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .service-card {
+        height: 100%; /* Ensure all cards have equal height */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+        .service-card:hover {
+            background-color: #fa8072;
+            transform: translateY(-5px);
+        }
+
+    .service-icon {
+        font-size: 40px;
+        color: #dc143c;
+        margin-bottom: 10px;
+    }
+
+    .service-title {
+        font-size: 18px;
+        font-weight: bold;
+        color: #343a40;
+        margin-bottom: 10px;
+    }
+
+    .service-description {
+        font-size: 14px;
+        color: #6c757d;
+    }
+</style>
+
+
+<div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+    <div class="carousel-inner" style="position:sticky;">
+        <div class="carousel-item active">
+            <img src="~/index/intern.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+        </div>
+    </div>
+</div>
+<header class=" container-fluid hero mt-2">
+    <h1>
+        E-commerce Website Development Company In DSPMU Ranchi
+    </h1>
+</header>
+
+<div class="container">
+    <h2 class="text-center">E-commerce Website Development</h2>
+    <p>
+        Welcome to DSPMU Ranchi IT Solution, your trusted partner in crafting exceptional E-commerce solutions that drive online success. We specialize in creating bespoke online stores that not only look great but also perform seamlessly to
+        enhance your business.</p>
+
+
+    <div class="container py-5">
+        <h2 class="text-center mb-4">Our E-commerce Services</h2>
+        <div class="row">
+            <!-- Service 1 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <i class="bi bi-laptop service-icon"></i>
+                    <div class="service-title">Custom E-commerce Development</div>
+                    <p class="service-description">Tailored solutions that meet your unique business requirements.</p>
+                </div>
+            </div>
+            <!-- Service 2 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <i class="bi bi-phone service-icon"></i>
+                    <div class="service-title">Responsive E-commerce Design</div>
+                    <p class="service-description">Mobile-friendly designs for a seamless shopping experience on all devices.</p>
+                </div>
+            </div>
+            <!-- Service 3 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <i class="bi bi-cart service-icon"></i>
+                    <div class="service-title">Shopping Cart Integration</div>
+                    <p class="service-description">Streamlined checkout processes for increased conversions.</p>
+                </div>
+            </div>
+            <!-- Service 4 -->
+            <div class="col-md-6 col-lg-3">
+                <div class="service-card">
+                    <i class="bi bi-tools service-icon"></i>
+                    <div class="service-title">E-commerce Website Maintenance</div>
+                    <p class="service-description">Ongoing support to ensure your online store stays at its best.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container mt-3">
+        <div class="content-container">
+            <h2 class="content-heading text-center">Why Choose DSPMU Ranchi IT Solution for E-commerce Development?</h2>
+            <p class="content-paragraph">
+                At <span class="highlight">DSPMU Ranchi IT Solution</span>, we blend creativity with technical expertise to deliver E-commerce solutions that truly stand out. Our approach is rooted in experience and innovation, ensuring that your business shines in a crowded market.
+            </p>
+            <p class="content-paragraph">
+                We have a <span class="highlight">proven track record</span> of delivering successful E-commerce projects that not only meet but exceed client expectations. Our team is proficient in all major E-commerce platforms and technologies, allowing us to create solutions that are both robust and flexible.
+            </p>
+            <p class="content-paragraph">
+                What sets us apart is our commitment to providing <span class="highlight">affordable solutions</span> that align with your budget without compromising on quality. Each business is unique, and we tailor our services to meet your specific needs.
+            </p>
+            <p class="content-paragraph">
+                Finally, our <span class="highlight">dedicated support and maintenance</span> services ensure that your online store remains in top condition long after launch. We’re here to support your growth and help you adapt to the ever-changing digital landscape.
+            </p>
+        </div>
+    </div>
+
+
+    <div class="container mt-5">
+        <div class="text-center"><h2>Maintenance Services</h2></div>
+        <div class="row equal-height">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-6">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-speedometer2"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Performance Improvement</h5>
+                        <p>Web performance optimization (WPO), or website optimization is the field of knowledge about increasing web performance.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-person-check"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Improves User Experience</h5>
+                        <p>We improve user experience, that reduce friction between your website and your target audience.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-bug"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Bug Fixing</h5>
+                        <p>We have been lot of work done in the field of bug fixing in the software development process.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-code-slash"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Removal of Outdated Functions</h5>
+                        <p>We improve Software by Removing outdated functions and dead codes from it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-6">
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-currency-dollar"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Cost Savings</h5>
+                        <p>We provide cost effective websites, softwares and maintenance service to our clients.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Improves Reliability</h5>
+                        <p>Software reliability is the probability of the failure free operation of a computer program for a specified environment.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-speedometer2"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Performance Improvement</h5>
+                        <p>Web performance optimization (WPO), or website optimization is the field of knowledge about increasing web performance.</p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <div class="service-icon">
+                        <i class="bi bi-person-check"></i>
+                    </div>
+                    <div class="service-text">
+                        <h5>Improves User Experience</h5>
+                        <p>We improve user experience, that reduce friction between your website and your target audience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="contact-section">
+    <div class="container text-black">
+        <h2>Contact Us for Your E-commerce Needs</h2>
+            <p>Ready to take your online business to the next level? Contact DSPMU Ranchi IT Solution today for a consultation. Let's discuss how we can turn your E-commerce vision into a reality.</p>
+        <div class="contact-details">
+            <p>Phone: <a href="tel:+7408142576">7761861674</a></p>
+                <p>Email: <a href="registrar@dspmuranchi.ac.in">registrar@dspmuranchi.ac.in</a></p>
+        </div>
+    </div>
+    </div>
+</div>

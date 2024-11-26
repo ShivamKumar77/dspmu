@@ -1,0 +1,179 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+    *@
+@{
+}
+<style>
+    /* Custom CSS */
+    .service-card ul {
+        list-style: none;
+        padding: 0;
+        text-align: left; /* Points are left-aligned */
+    }
+
+        .service-card ul li::before {
+            content: "✔️";
+            margin-right: 10px;
+            color: green;
+        }
+
+    .service-icon {
+        font-size: 4rem;
+        color: #DC143C;
+        transition: color 0.3s;
+    }
+
+    .service-card {
+        transition: transform 0.3s;
+        border: none;
+        border-radius:10%;
+    }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .service-card:hover {
+            transform: translateY(-10px);
+            background-color: #FA8072;
+        }
+        .service-card .card-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .service-card .card-text {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .service-card ul {
+            list-style: none;
+            padding: 0;
+        }
+
+            .service-card ul li {
+                margin-bottom: 10px;
+            }
+
+                .service-card ul li::before {
+                    content: "✔️";
+                    margin-right: 10px;
+                    color: green;
+                }
+    .setimg {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/services/our bg.png');
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .contentt {
+        background-color: rgba(0, 0, 1, 0.9); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+
+    .contenttt {
+        background-color: rgba(0, 0, 1, 0.6); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+</style>
+
+<div class="setimg">
+    <div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+        <div class="carousel-inner" style="position:sticky;">
+            <div class="carousel-item active">
+                <img src="~/services/our slider.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+            </div>
+        </div>
+    </div>
+
+    <header class=" container-fluid hero">
+        <h1>Our Main Services</h1>
+    </header>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Website Designing -->
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center shadow">
+                    <div class="card-body">
+                        <div class="service-icon mb-3">
+                            <i class="bi bi-laptop"></i>
+                        </div>
+                        <h5 class="card-title">Website Designing</h5>
+                        <p class="card-text">We provide modern and responsive websites tailored to your brand's identity.</p>
+                        <ul>
+                            <li>Custom Design</li>
+                            <li>Mobile-Friendly Layouts</li>
+                            <li>SEO Optimization</li>
+                            <li>Enhanced UI/UX</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile App Development -->
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center shadow">
+                    <div class="card-body">
+                        <div class="service-icon mb-3">
+                            <i class="bi bi-phone"></i>
+                        </div>
+                        <h5 class="card-title">Mobile App Development</h5>
+                        <p class="card-text">Creating intuitive apps for Android and iOS, focusing on user experience.</p>
+                        <ul>
+                            <li>Native & Cross-Platform</li>
+                            <li>User-Friendly UI</li>
+                            <li>API Integration</li>
+                            <li>Ongoing Support</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Digital Marketing -->
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center shadow">
+                    <div class="card-body">
+                        <div class="service-icon mb-3">
+                            <i class="bi bi-graph-up"></i>
+                        </div>
+                        <h5 class="card-title">Digital Marketing</h5>
+                        <p class="card-text">Boost your online presence with our effective digital marketing strategies.</p>
+                        <ul>
+                            <li>SEO & Content</li>
+                            <li>Social Media</li>
+                            <li>PPC Advertising</li>
+                            <li>Brand Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Software Development -->
+            <div class="col-md-6 mb-4">
+                <div class="card service-card text-center shadow">
+                    <div class="card-body">
+                        <div class="service-icon mb-3">
+                            <i class="bi bi-code-slash"></i>
+                        </div>
+                        <h5 class="card-title">Software Development</h5>
+                        <p class="card-text">Developing custom software solutions to optimize your business processes.</p>
+                        <ul>
+                            <li>Custom Software</li>
+                            <li>Enterprise Solutions</li>
+                            <li>System Integration</li>
+                            <li>Legacy Modernization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ </div>

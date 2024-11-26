@@ -1,0 +1,352 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    /* General styles */
+    h3 {
+        color: black;
+    }
+
+    .setimg {
+        margin: 0;
+        background-image: url('/index/bgimg.png');
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    /* Image and text hover effect for team members */
+    .team-members img {
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1);
+    }
+
+    .team-members .member-info {
+        transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+        transform: translateY(0);
+    }
+
+    /* Hover effect: scaling image and moving text */
+    .team-members:hover img {
+        transform: scale(1.1);
+    }
+
+    .team-members:hover .member-info {
+        transform: translateY(-10px);
+        color: #f8f9fa; /* Change text color on hover */
+    }
+
+    /* Animation for page load */
+    .team-members {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    }
+
+        .team-members.animated {
+            opacity: 1;
+            transform: translateY(0);
+        }
+</style>
+
+    
+<div class="setimg">
+    <div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+        <div class="carousel-inner" style="position:sticky;">
+            <div class="carousel-item active">
+                <img src="~/services/our slider.png" class="d-block w-100 slide" alt="video">
+            </div>
+        </div>
+    </div>
+    <header class=" container-fluid hero">
+        <h1>Our Portfolio</h1>
+    </header>
+
+    <div class="text-center pt-3 text-white fw-bold"><h2>Our Portfolio for Website</h2></div>
+
+    <section class="team">
+        <h2 class="section-title"></h2>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port1 (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2>CIST</h2>
+                    <h4>Result Managent System</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port2 (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>CUET MANTRA</h2>
+                    <h4>Coaching Center</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port3 (1).png" alt="Team Member 3">
+                <div class="member-info text-center">
+                    <h2>
+                        AVIVAKEEON INTERIO
+                    </h2>
+                    <h4> The Best Interior Designers</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port4 (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2>Cadets Academy</h2>
+                    <h4>
+                        NDA Coaching Center
+                    </h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port5 (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>Aero Western Green</h2>
+                    <h4>
+                        Find A Perfect Home To Live With Your Family
+                    </h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port6 (1).png" alt="Team Member 3">
+                <div class="member-info text-center">
+                    <h2>
+                        Shrimad Saurya Academy
+                    </h2>
+                    <h4>  Coaching Center Delhi</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port7 (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2>
+                        IAS Coaching Center
+                    </h2>
+                    <h4>Coaching Center Delhi</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port8 (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>
+                        ACICT Computer Technology
+                    </h2>
+                    <h4>Computer Coaching Center</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port9 (1).png" alt="Team Member 3">
+                <div class="member-info text-center">
+                    <h2>
+                        VIRASU Enterprises
+                    </h2>
+                    <h4> Investment Company</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port10 (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2>
+                        Cadets Academy
+                    </h2>
+                    <h4>Coaching Center</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port11 (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>
+                        Cleantree
+                    </h2>
+                    <h4>Cleaning Chemical website</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port12 (1).png" alt="Team Member 3">
+                <div class="member-info text-center">
+                    <h2>
+                        Xseedclasses
+                    </h2>
+                    <h4> Caching Center Jhansi</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port13 (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2 >
+                        UJJWAL COMPUTER
+                    </h2>
+                    <h4>Computer Teaching Institute</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port14 (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>
+                        The Golden Star Icon
+                    </h2>
+                    <h4>Awards</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port15 (1).png" alt="Team Member 3">
+                <div class="member-info text-center">
+                    <h2>
+                        Avivakeeon
+
+                    </h2>
+                    <h4>  Event Management</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port16.png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2 >
+                        Colour Tribe
+                    </h2>
+                    <h4>Clothing Website</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/port17.png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>
+                        DNS ENTERPRISES
+                    </h2>
+                    <h4>Comprehensive spare parts solution</h4>
+                    <p>Website</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="text-center text-white pt-5 fw-bold pb-3">
+            <h2>Our Portfolio for Application</h2>
+        </div>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/Eva Bizz (1).png" alt="Team Member 1">
+                <div class="member-info text-center">
+                    <h2 >
+                        EvaBizz
+
+                    </h2>
+                    <h4>Online Learning Application</h4>
+                    <p>Application</p>
+                    <div class="text-black fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 mb-4 team-members">
+                <img src="~/portfolio/examcity (1).png" alt="Team Member 2">
+                <div class="member-info text-center">
+                    <h2>
+                        Exam City
+                    </h2>
+                    <h4>Online Exam Application</h4>
+                    <p>Application</p>
+                    <div class=" fw-bold bg-white">
+                        <a href="#"><h3>Visite</h3></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+</div>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const teamMembers = document.querySelectorAll('.team-members');
+
+        teamMembers.forEach((member, index) => {
+            setTimeout(() => {
+                member.classList.add('animated');
+            }, index * 150); // Adds delay between each element animation
+        });
+    });
+</script>

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\urgent_IT_project1.props" />
+</Project>

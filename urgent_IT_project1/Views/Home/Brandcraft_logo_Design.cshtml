@@ -1,0 +1,232 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-image: url('/slider/slider4.png');
+        background-size: cover;
+        background-attachment: fixed;
+        color: white;
+    }
+
+    .contenttt {
+        background-color: rgba(0, 0, 1, 0.6); /* Black background with 60% opacity */
+        padding: 20px;
+        margin: 20px;
+        border-radius: 10px;
+        background-attachment: fixed;
+    }
+    .category-item {
+        padding: 15px;
+        border: 1px solid #dee2e6;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center; /* Align items vertically */
+        text-align: left;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+        height: 150px; /* Reduced height */
+    }
+
+        .category-item:hover {
+            background-color: #fa8072;
+            transform: scale(1.05);
+        }
+
+    .category-icon {
+        font-size: 30px; /* Adjusted icon size */
+        color: #dc143c;
+        background-color: #000000;
+        border-radius: 50%;
+        width: 50px; /* Adjusted width */
+        height: 50px; /* Adjusted height */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 15px; /* Space between icon and text */
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .category-item:hover .category-icon {
+        background-color: #fa8072;
+        color: #ffffff;
+    }
+
+    .category-item h4 {
+        font-size: 16px; /* Smaller font size for headers */
+        margin-bottom: 5px; /* Adjust margin to fit smaller text */
+    }
+
+    .category-item p {
+        font-size: 14px; /* Smaller font size for paragraphs */
+        margin: 0; /* Remove margin for better alignment */
+    }
+
+    .equal-height {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+        .equal-height .col {
+            display: flex;
+            flex-direction: column;
+        }
+
+    .col-md-6 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-item:last-child {
+        margin-bottom: 0; /* Remove margin for the last item */
+    }
+
+</style>
+
+
+<div id="carouselExampleCaptions" class="carousel slide pt-1" data-bs-ride="carousel">
+
+    <div class="carousel-inner" style="position:sticky;">
+        <div class="carousel-item active">
+            <img src="~/index/intern.png" loop muted autoplay class="d-block w-100 slide" alt="video">
+        </div>
+    </div>
+</div>
+<header class=" container-fluid hero mt-2">
+    <h1>Logo Design Company In DSPMU Ranchi </h1>
+</header>
+
+<div class="container">
+    <div class="contenttt">
+    <h2 class="text-center pb-1"><a href="#">Logo Design</a> </h2>
+    <p>Your logo gives an identity to your business, enabling clients to quickly recognize your brand at whatever point they go over this particular visual mark. At Unik Art, we know the significance of a logo which makes the initial introduction of your business. We, in this manner, offer custom logo design services, went for building your image character among various different organizations from your specialty. With our logo plan, your business gets an amazing impression to mirror the uniqueness of your image. We enjoy the reputation of being an affordable logo design company that attempts to provide a business with an
+        innovative and creative logo at an economical cost.</p>
+     </div>
+
+    <div class="text-center contenttt">
+        <h2>Design a logo by choosing your industry</h2>
+    </div>
+
+    <div class="container contenttt mt-5">
+        <div class="row equal-height">
+            <!-- Column 1 -->
+            <div class="col-12 col-md-6">
+                <div class="category-item">
+                    <i class="bi bi-bag category-icon"></i>
+                    <div>
+                        <h4>Fashion, Shopping, Events</h4>
+                        <p>Fashion, vintage, style, retro, elegant, chic, clothing brand, dressing, fashion designer.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-bar-chart category-icon"></i>
+                    <div>
+                        <h4>Finance, Marketing, Consulting</h4>
+                        <p>Business, job, company, work, commercial, jobs, corporate, industries, organization.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-trophy category-icon"></i>
+                    <div>
+                        <h4>Sports, Fitness, Coaching</h4>
+                        <p>Sport, sports, exercise, passion, sports group, leisure, multisport, recreation, activity.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-hospital category-icon"></i>
+                    <div>
+                        <h4>Health, Medical, Doctor</h4>
+                        <p>Health, medical, healthcare, care, smoke, cigarette, health care, smoking, surgery.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Column 2 -->
+            <div class="col-12 col-md-6">
+                <div class="category-item">
+                    <i class="bi bi-fonts category-icon"></i>
+                    <div>
+                        <h4>Letters A-Z</h4>
+                        <p>Letter, letters, alphabet, graffiti, abc, alphabets, script, a to z, typography.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-airplane-engines category-icon"></i>
+                    <div>
+                        <h4>Travel, Tourism</h4>
+                        <p>Travel, tour, tourism, travels, travel agency, holiday, tours, vacation, travelling.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-book category-icon"></i>
+                    <div>
+                        <h4>Education, Association</h4>
+                        <p>Education, educational, learn, academic, education, educate, education consultant, academics.</p>
+                    </div>
+                </div>
+                <div class="category-item">
+                    <i class="bi bi-cup category-icon"></i>
+                    <div>
+                        <h4>Food, Drinks, Restaurant</h4>
+                        <p>Food, hospitality, eat, food and drinks, food and drink, food industry, food products, food blog, food and beverage.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contenttt pt-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+                <img class="img-fluid" src="~/web imgs/poster.png" />
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+                <a href="#"><h2 class="text-blue">Poster design</h2></a>
+                <p>
+                    A poster is a promotion of an idea, product, or event put up in a public space for mass consumption. Typically, posters include both textual and graphic elements, although a poster may be either wholly graphical or wholly text. Posters are designed to 
+                    be both eye-catching and informative.
+                </p>
+                <p>We provide the posters advertising consumer products and entertainment, but also events such as the World's Fairs and Colonial Exhibitions.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container contenttt">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6 order-2 order-lg-1">
+                <a href="#"><h2 class="text-blue">Brochure Design</h2></a>
+                <p>
+                    A brochure is an informative paper document (often also used for advertising) that can be folded into a template, pamphlet, or leaflet. A brochure can also be a set of related unfolded papers put into a pocket folder or packet. Brochures are promotional documents, primarily used to introduce a company, organization, products or services and inform 
+                    prospective customers or members of the public of the benefits.
+                </p>
+                <p>Brochures are distributed in many different ways: as newspaper inserts, handed out personally, by mail or placed in brochure racks in high traffic locations especially in tourist precincts We
+                    create brochures that target your audience.</p>
+                <P>We create brochures that target your audience.</P>
+            </div>
+            <div class="col-12 col-lg-6 col-md-6 order-1 order-lg-2">
+                <img class="img-fluid" src="~/web imgs/brochure.png" />
+            </div>
+        </div>
+    </div>
+
+    <div class="container contenttt pt-4">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-md-6">
+                <img class="img-fluid" src="~/web imgs/menu imgs.png" />
+            </div>
+            <div class="col-12 col-lg-6 col-md-6">
+                <a href="#"><h2 class="text-blue">Menu Design</h2></a>
+                <p>
+                    In a restaurant, the menu is a list of food and beverages offered to customers and the prices. A menu may be à la carte – which presents a list of options from which customers choose – or table d'hôte, in which case a pre-established sequence of courses is offered. Menus may be printed on paper sheets provided to the diners, put on a large poster or display board inside the establishment,
+                    displayed outside the restaurant, or put on a digital screen..
+                </p>
+                <p>Our engineers study the visual and verbal psychology behind why people order certain items—and use that valuable information to design menus in a way that maximizes restaurant profits.</p>
+            </div>
+        </div>
+    </div>
+
+</div>

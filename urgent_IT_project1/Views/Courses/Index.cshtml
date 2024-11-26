@@ -1,0 +1,68 @@
+﻿@model IEnumerable<urgent_IT_project1.Models.Course>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout - Admin.cshtml";
+
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<h4 style="color:green;">@TempData["Success"] </h4>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Image
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CDuration)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CDescrip1)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CDescrip2)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CPrice)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <img src="@Url.Content("~/images/" + item.CImage)" style="width:100px; height:100px;" />
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CDuration)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CDescrip1)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CDescrip2)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPrice)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
